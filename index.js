@@ -14,3 +14,11 @@ function mapToNoChange(array) {
   }
   return newArr;
 }
+
+function mapToDouble(array) {
+  let newArr = []
+  for (let i = 0; i < array.length; i++) {
+    newArr.push( array[i] * 2 )
+  }
+  return newArr;
+}
