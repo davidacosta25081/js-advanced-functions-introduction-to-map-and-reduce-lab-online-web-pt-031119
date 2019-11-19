@@ -33,10 +33,10 @@ function mapToSquare(array) {
 }
 
 function reduceToTotal(array) {
-  let newArr = []
-  let total = 0;
+  
+
   for (let i = 0; i < array.length; i++) {
-    total += array[i];
+    let total += array[i];
   }
   return total;
 }
