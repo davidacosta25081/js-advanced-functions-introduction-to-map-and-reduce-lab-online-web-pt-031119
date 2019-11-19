@@ -46,4 +46,3 @@ function reduceToTotal(array, startingPoint) {
   }
   return startingPoint;
 }
-
