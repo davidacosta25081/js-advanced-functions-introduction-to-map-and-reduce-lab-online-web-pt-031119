@@ -42,7 +42,7 @@ function reduceToTotal(array) {
 
 function reduceToTotal(array, startingPoint) {
   for (let i = 0; i < array.length; i++) {
-    let startingPoint += array[i];
+     startingPoint += array[i];
   }
   return startingPoint;
 }
