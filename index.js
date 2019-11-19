@@ -31,7 +31,3 @@ function mapToSquare(array) {
   }
   return newArr;
 }
-
-
-
-
