@@ -22,3 +22,16 @@ function mapToDouble(array) {
   }
   return newArr;
 }
+
+
+function mapToSquare(array) {
+  let newArr = []
+  for (let i = 0; i < array.length; i++) {
+    newArr.push( array[i] ** 2 )
+  }
+  return newArr;
+}
+
+
+
+
