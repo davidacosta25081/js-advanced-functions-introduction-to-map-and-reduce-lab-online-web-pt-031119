@@ -4,7 +4,7 @@ function mapToNegativize(array) {
     newArr.push(-1 * array[i])
   }
   return newArr;
-}  
+}
 
 
 function mapToNoChange(array) {
@@ -13,4 +13,4 @@ function mapToNoChange(array) {
     newArr.push(array[i])
   }
   return newArr;
-}  
+}
